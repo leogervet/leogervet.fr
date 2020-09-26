@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>UX & Web design Works - Léo Gervet</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+<body onload="getTime(), onClick()">
+	<header class="header-sticky">
+		<div class="container">
+			<div class="row">
+				<div class="col"></div>
+				<nav class="menu col-6 align-self-center text-center">
+					<ul>
+						<li>
+							<a href="index.html" style="margin-right:7px">About</a>
+						</li>
+						<li>
+							<a href="work.html"  class="active-link" style="margin-left:7px">Work</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="contact col">
+					<div class="contact-box-wrapper">
+		  				<a class="modal-btn contact-box" href="#open-modal">Say hello!</a>
+					</div>			
+
+					<div id="open-modal" class="modal-window">
+						<div>
+					    	<a href="#" title="Close" class="modal-close">Close</a>
+					    	<h1 id="getTime"></h1>
+					    	<p class="modal-text">Enough about me, let's hear about you !</p>
+					    	<div class="container">
+					    		<div class="row justify-content-center">
+					    			<div class="col-sm-2 d-none d-sm-flex"></div>
+						    		<div class="col-sm-4 col-xs-12 email">
+						    			<p>Email<br>
+						    			<small>Send me a note !</small></p>
+
+						    			<small><a href="malto:gervet.leo@gmail.com" target="_blank">gervet.leo@gmail.com</a></small>
+						    		</div>
+						    		<div class="col-sm-4 col-xs-12 phone">
+						    			<p>Phone<br>
+						    			<small>Give me a call !</small></p>
+						    			
+						    			<small><a href="tel:0614702768" target="_blank">06 14 70 27 68</a></small>
+						    		</div>
+						    		<div class="col-sm-2 d-sm-flex"></div>
+					    		</div>
+					    	</div>
+					    	<div class="container social">
+					    		<div class="row justify-content-baseline align-items-center text-center">
+					    			<div class="col"></div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://linkedin.com/in/leo-gervet" target="_blank">
+					    					<i class="fab fa-linkedin-in"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>LinkedIn</h4>
+					    						léo gervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://instagram.com/leogervet" target="_blank">
+					    					<i class="fab fa-instagram"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>Instagram</h4>
+					    						@leogervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://codepen.io/leo-gervet" target="_blank">
+					    					<i class="fab fa-codepen"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>Codepen</h4>
+					    						leogervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col"></div>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>	  			
+				</div>
+			</div>
+		</div>	
+	</header>
+
+	<div class="container">
+		<section class="section fullscreen">
+		<div class="row main-text">
+			<h1 class="col-12 big-title">
+			Digital experiences & Web designs
+			</h1>
+			<p class="col-12">
+				A selection of my works as <strong>UX & Web Designer</strong>, selected by categories.
+			</p>
+		</div>
+
+		<div class="container work-categories">
+			<h2 class="category-title" id="categoryTitle">Temporary title</h2>
+			<div class="">
+				<div class="row justify-content-start">
+					<div class="col-xs-auto mx-3">
+						<a href="#" id="allElements"><h3 class="category-name active-category">All</h3></a>
+					</div>
+					<div class="col-xs-auto mx-3">
+						<a href="#" id="case-studies"><h3 class="category-name">Case studies</h3></a>
+					</div>
+					<div class="col-xs-auto mx-3">
+						<a href="#" id="digital-experience"><h3 class="category-name">Digital Experiences</h3></a>
+					</div>
+					<div class="col-xs-auto mx-3">
+						<a href="#" id="web-integration"><h3 class="category-name">Web integration</h3></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container work-grid">
+			<div class="card-deck">
+				<div class="card" id="case-studies-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+				<div class="card" id="digital-experience-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+				<div class="card" id="web-integration-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="card" id="case-studies-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+				<div class="card" id="digital-experience-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+				<div class="card" id="web-integration-items">
+					<a href="">
+						<img class="card-img-top" src="https://picsum.photos/400/250" alt="Card image cap">
+						<div class="card-body">
+    						<h5 class="card-title">Titre</h5>
+    					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</section>
+	</div>
+
+	<!-- SCRIPTS !-->
+	<script src="https://kit.fontawesome.com/a4b51f1b03.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+</body>
+</html>

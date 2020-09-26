@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Léo Gervet | UX & Web design</title>
+	<link rel="stylesheet" type="text/css" href="fullpage.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+</head>
+<body onload="getTime()">
+	<header class="header-sticky">
+		<div class="container">
+			<div class="row">
+				<div class="col"></div>
+				<nav class="menu col-6 align-self-center text-center">
+					<ul>
+						<li>
+							<a href="index.html" class="active-link" style="margin-right:7px">About</a>
+						</li>
+						<li>
+							<a href="work.html" style="margin-left:7px">Work</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="contact col">
+					<div class="contact-box-wrapper">
+		  				<a class="modal-btn contact-box" href="#open-modal">Say hello!</a>
+					</div>
+
+					
+
+					<div id="open-modal" class="modal-window">
+						<div>
+					    	<a href="#" title="Close" class="modal-close">Close</a>
+					    	<h1 id="getTime"></h1>
+					    	<p class="modal-text">Enough about me, let's hear about you !</p>
+					    	<div class="container">
+					    		<div class="row justify-content-center">
+					    			<div class="col-sm-2 d-none d-sm-flex"></div>
+						    		<div class="col-sm-4 col-xs-12 email">
+						    			<p>Email<br>
+						    			<small>Send me a note !</small></p>
+
+						    			<small><a href="malto:gervet.leo@gmail.com" target="_blank">gervet.leo@gmail.com</a></small>
+						    		</div>
+						    		<div class="col-sm-4 col-xs-12 phone">
+						    			<p>Phone<br>
+						    			<small>Give me a call !</small></p>
+						    			
+						    			<small><a href="tel:0614702768" target="_blank">06 14 70 27 68</a></small>
+						    		</div>
+						    		<div class="col-sm-2 d-sm-flex"></div>
+					    		</div>
+					    	</div>
+					    	<div class="container social">
+					    		<div class="row justify-content-baseline align-items-center text-center">
+					    			<div class="col"></div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://linkedin.com/in/leo-gervet" target="_blank">
+					    					<i class="fab fa-linkedin-in"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>LinkedIn</h4>
+					    						léo gervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://instagram.com/leogervet" target="_blank">
+					    					<i class="fab fa-instagram"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>Instagram</h4>
+					    						@leogervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col-2 social-element">
+					    				<a href="https://codepen.io/leo-gervet" target="_blank">
+					    					<i class="fab fa-codepen"></i>
+					    					<div class="social-content d-none d-lg-inline-block">
+					    						<h4>Codepen</h4>
+					    						leogervet
+					    					</div>
+					    				</a>
+					    			</div>
+					    			<div class="col"></div>
+					    		</div>
+					    	</div>
+					    </div>
+					</div>	  			
+				</div>
+			</div>
+		</div>	
+	</header>
+
+	<div id="fullpage">
+		<!-- LANDING !-->
+		<section class="section container fullscreen-section">
+			<div class="row">
+				<div class="col-12">
+					<div class="main-text">
+						<h1 class="big-title">
+							Researching experiences.
+						</h1>
+						<p>
+							I'm a <strong>freelancer</strong> who loves <strong>designing</strong> great <br><strong>digital experiences</strong> & websites.
+						</p>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<!-- SERVICES !-->
+		<section class="section container">
+			<div class="row">
+				<div class="col-12">
+					<div class="main-text text-right">
+						<p class="section-title">Services</p>
+						<h2>I design digital experiences, <br>products and services.</h2>
+						<p>My <strong>UX Design</strong> workflow fits in four steps : <strong>UX Research</strong> (data analysis & on the field investigations), <strong>Wireframing</strong> (designing the basis of the interface), <strong>Prototyping</strong> (building a live-preview of the product or service) and <strong>Testing</strong> (with a sample of real users).</p>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+		<!-- WORKS !-->
+		<section class="section container fp-auto-height">
+			<div class="row">
+				<div class="col-12">
+					<div class="main-text">
+						<p class="section-title">
+							Works
+						</p>
+						<h2>Curated selection of my works</h2>
+						<div class="row justify-content-center align-content-center">
+							<div class="col-sm-5 col-xs-5">
+								<a href=""><img src="https://picsum.photos/400/250"/></a>
+							</div>
+							<div class="col-sm-5 col-xs-5">
+								<a href=""><img src="https://picsum.photos/400/250"/></a>
+							</div>
+							<div class="col-sm-2 hidden-xs"></div>
+						</div>
+						<p><a href="work.html">See more works</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CLIENTS !-->
+		<section class="section container fp-auto-height">
+			<div class="row">
+				<div class="col-12">
+					<div class="main-text text-right">
+						<p class="section-title">
+							Clients
+						</p>
+						<h2>We built great things together</h2>
+						<div class="clients row justify-content-baseline align-content-right">
+							<div class="col-6 align-self-baseline"></div>
+							<div class="col-2 align-self-baseline">
+								<img src="img/clients/clients-logo-image-conseil.png"/>
+							</div>
+							<div class="col-2 align-self-baseline">
+								<img src="img/clients/clients-logo-kaffein-agency.png"/>
+							</div>
+							<div class="col-2 align-self-baseline">
+								<img src="img/clients/clients-logo-le-point-green.png"/>
+							</div>
+						</div>
+						<div class="clients row justify-content-baseline align-content-right" style="margin-top:2%;">
+							<div class="col-6 align-self-baseline"></div>
+							<div class="col-2 align-self-baseline">
+								<img src="img/clients/clients-logo-krioya.png"/>
+							</div>
+							<div class="col-2">
+								<img src="img/clients/clients-logo-image-conseil.png"/>
+							</div>
+							<div class="col-2 align-self-baseline">
+								<img src="img/clients/cients-logo-ecocentric.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- SCRIPTS !-->
+	<script src="https://kit.fontawesome.com/a4b51f1b03.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/fullpage.js"></script>
+	
+	<!-- https://forum.webflow.com/t/fullpage-js-step-by-step-set-up/17251/12 !-->
+	<script charset="utf-8"> 
+		$(document).ready(function() {
+		$('#fullpage').fullpage({
+			scrollingSpeed:1500,
+			sectionsColor:['#15847d'],
+			fitToSection:true,
+			responsiveHeight:true,
+		}); });
+	</script> 
+</body>
+</html>
